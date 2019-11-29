@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{    background:url(https://res.cloudinary.com/clippings/image/upload/t_big/dpr_auto,f_auto,w_auto/v1512992386/products/math-neutral-wallpaper-mind-the-gap-clippings-9743411.jpg) ;
+  background-size: cover;
+  height:100%;
+  padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white !important;
+}
+label {
+color: white;
+}
+
+.hide{
+    display: none;
+}
+.red{
+    background: red !important;
+}
+
+#caculate{
+    font-size: 140%;
+}
+
+#lbPercent{
+	margin-top: 10px;
+}
+
+
+#form-main{
+	width:100%;
+	/* float:left; */
+	padding-top:0px;
+}
+
+#form-div {
+	/* background-color:rgba(72,72,72,0.4); */
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+    width: 450px;
+    margin: auto;
+	/* float: left;
+	left: 50%; */
+	/* position: absolute; */
+  /* margin-top:30px;
+	margin-left: -260px; */
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+    font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+    
+}
+
+
+
+.button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.btn-info
+{
+	float: right;;
+}
+
+.infor
+{
+	margin-top: 20px;
+}
+	
+
+
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		/* left: 3%; */
+		/* margin-right: 3%; */
+		width: 100%;
+		/* margin-left: 0; */
+		/* padding-left: 3%; */
+		/* padding-right: 3%; */
+	}
+}
